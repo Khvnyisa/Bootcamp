@@ -31,11 +31,20 @@
 
 
 // let i = 0
-let numbers =[2,9,11,7,5,3,4,8,15]
+// let numbers =[2,9,11,7,5,3,4,8,15]
         
-for( let i = 0; i <=9; i ++ ){
+// for( let i = 0; i <=9; i ++ ){
 
-    if ( numbers[i] % 2 === 0) {
-    console.log(numbers[i])
+//     if ( numbers[i] % 2 === 0) {
+//     console.log(numbers[i])
+//     }
+// }
+
+let i = d
+fname = ["ace","buja","dudu","andy","candy","dadas","mandy","dede","banda"]
+
+for( let i = d; fname.lenght; i ++ ){
+    if ( fname[i] + " " + "it is a d" ) {
+        console.log(names[i])
     }
 }

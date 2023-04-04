@@ -65,7 +65,7 @@ console.log(emailGen("Khanyisa Mgunculu"))
 
 let num1 = [1,3,5,7]
 let num2 = [0,2,4,6]
-let num3 = [...num1,...num2]
+let num3 = [num1,num2]
 let num4 = num1.concat(num2)
 
 console.log("this is num3",num3)

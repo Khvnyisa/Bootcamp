@@ -40,11 +40,13 @@
 //     }
 // }
 
-let i = d
-fname = ["ace","buja","dudu","andy","candy","dadas","mandy","dede","banda"]
+// let i = d
+// fname = ["ace","buja","dudu","andy","candy","dadas","mandy","dede","banda"]
 
-for( let i = d; fname.lenght; i ++ ){
-    if ( fname[i] + " " + "it is a d" ) {
-        console.log(names[i])
-    }
-}
+// for( let i = d; fname.lenght; i ++ ){
+    // if ( fname[i] + " " + "it is a d" ) {
+        // console.log(names[i])
+    // }
+// }
+
+function 

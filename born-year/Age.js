@@ -1,6 +1,9 @@
 function calcAge (birthY){
-    let i = (2023-birthY);
-    
-    if(i<20)
+    let age = 2023-birthY
+    if(age<0){
 
+        return "1992"
+    }
+    else if(age)
+    console.log(1992)
 }

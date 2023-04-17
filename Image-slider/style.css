@@ -1,9 +1,8 @@
-/* {
+* {
     box-sizing: border-box;
     padding: 0;
     /* margin: 0; */
 }
-
 .slide-show {
     top: 50%;
     display: flex;
@@ -11,4 +10,13 @@
     justify-content: center;
     align-items: center;
 }
+.show_image{ 
+  width: 400px;
+  border: 5px solid rgb(217, 205, 205);
+  height: 400px;
 
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}    

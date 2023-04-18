@@ -2,8 +2,12 @@ let img = document.getElementById('image')
 
 
 
-let images ; if(images = localStorage.getItem("fruits") ){images=JSON.parse(localStorage.getItem("fruits"))}
-else{ images = [
+let images ; 
+
+if(images = localStorage.getItem("fruits") ){
+    images=JSON.parse(localStorage.getItem("fruits"));
+}else { 
+images = [
 "image1.jpg",
 "image2.jpg", 
 "image3.jpg",
@@ -12,6 +16,7 @@ else{ images = [
 "image6.jpg"
 
 ]
+
 }
 
 let i = 0
@@ -26,11 +31,13 @@ let i = 0
 // show.alt = "image of fruit"
 
 function save(){
-    let img = document.querySelector('.file').value;
+    let img = document.querySelector(".file").value;
+
     images.push(img)
-    localStorage.setItem("fruits",JSON.stringify(fruits)) 
-    console.log(img);
+    localStorage.setItem("images",JSON.stringify(images));
+    console.log(images);
 } 
+
 
 function next(){
    
@@ -40,6 +47,7 @@ function next(){
         i = 0
     }
     img.src = images[i]
+    document.querySelector('.numbertext').innerHTML = `${i+1}/6`
 }
 
 function prev() {
@@ -49,4 +57,5 @@ function prev() {
         i = images.length-1; 
     }
     img.src = images[i]
+    document.querySelector('.numbertext').innerHTML = `${i+1}/6`
 }

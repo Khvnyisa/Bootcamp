@@ -16,7 +16,10 @@
   height: 400px;
 
 }
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}    
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
